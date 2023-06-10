@@ -35,5 +35,17 @@ steps:
 3-Writes the extracted price to the same output.txt file.
 
 ################################
-#DOCKER :
+## Dockerfile Explanation
+we use this step  to build a Docker image for running the `project.py` script. ( project of DATA_SCRAPING )
+
+The Dockerfile provided performs the following actions:
+
+- Uses the `python:3.7-alpine` as the base image.( alpine  is small size  Linux distribution.To execute the code quickly)
+- Sets the working directory inside the container to `/app`.
+- Copies the `requirements.txt`, `project.py`, and `README.md` (if present) files to the `/app` directory.
+- Installs the dependencies specified in `requirements.txt` using pip.
+- Sets the default command to execute as `python project.py` when the container starts.
+
+
+
 
