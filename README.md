@@ -14,5 +14,6 @@ steps:
 2- Update the url variable with the desired website URL
 
 3-Sends a GET request to the specified URL using the requests library.
-3-
+3- print ( response.status_code /response.headers / response.text)
+4-
 
