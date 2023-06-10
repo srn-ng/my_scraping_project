@@ -19,7 +19,7 @@ steps:
 
 4-Parses the HTML response using BeautifulSoup.
 
-5-Finds all elements with the CSS class "product-intro__shipcheap" and extracts their text.(to find the class of css in the inspect) 
+5-Finds all elements with the CSS class "product-intro__shipcheap" and extracts their text.(To find the CSS class, you should  inspect the element and search for the desired class. 
 
 6-the  prices is writen  to a text file named "output.txt".
 
