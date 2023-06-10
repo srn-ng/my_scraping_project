@@ -12,5 +12,7 @@ steps:
    -Selenium library (pip install selenium) .
 
 2- Update the url variable with the desired website URL
+
+3-Sends a GET request to the specified URL using the requests library.
 3-
 
