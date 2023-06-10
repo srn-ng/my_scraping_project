@@ -1,4 +1,6 @@
 # my_scraping_project
+#using requests and beautifulsoup4 :
+
 steps:
 
 1- the fist step is to instal the following things : 
