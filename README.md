@@ -2,6 +2,7 @@
 steps:
 
 1- the fist step is to instal the following things : 
+
    -Python .
 
    -requests library (pip install requests).
